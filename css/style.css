@@ -1,25 +1,53 @@
 
 /* DEBUG:  */
 body [class*="col-"] {
-  height: 200px;
-  background-color: pink;
-  border: 1px solid red;
+  height: 400px;
+  /* background-color: pink;
+  border: 1px solid red; */
 }
 /* DEBUG:  */
 
 /* Utility */
-.my-bg-blue {
+.my-bg-sblue {
   background-color: #2C3E50;
 }
 .h-100 {
   height: 100px;
 }
+.h-250 {
+  height: 250px !important;
+}
 .my-bg-green {
   background-color: #1ABC9C;
 }
 .h-700 {
-  height: 700px;
+  height: 700px !important;
+}
+.h-400 {
+  height: 400px;
 }
 .mb-0{
   margin-bottom: 0px !important;
 }
+.mt-50 {
+  margin-top: 50px;
+}
+.my-bg-red {
+  background-color: #BA4B63;
+}
+.my-bg-lblue {
+  background-color: #1EA4B6;
+}
+.my-bg-black {
+  background-color: black;
+}
+.my-bg-dblue {
+  background-color: #1C83C1;
+}
+.my-bg-blue {
+  background-color: #0E38B5;
+}
+.my-bg-sand {
+  background-color: #CCB2A3;
+}
+/* Utility */
