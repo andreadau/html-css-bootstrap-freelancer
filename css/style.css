@@ -84,7 +84,7 @@ nav {
   color: white;
 }
 .star {
-  width: 30px;
+  font-size: 30px;
 }
 .star::before {
 
