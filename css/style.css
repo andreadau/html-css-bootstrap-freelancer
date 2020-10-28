@@ -142,9 +142,9 @@ nav {
   position: relative;
 }
 .bg-card {
-position: absolute;
-top: 50%;
-left: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 .hover-card {
   background-color:  #1ABC9C;
@@ -183,3 +183,37 @@ left: 50%;
   font-size: 3em;
   margin-top: 100px;
 }
+.input-text{
+  margin: 30px;
+  padding: 20px;
+  width: 100%;
+  border-bottom: 1px solid #e9ecef;
+}
+.input-text input {
+  font-size: 1.5em;
+  border-style: hidden;
+  width: 100%;
+}
+.input-text textarea {
+  font-size: 1.5em;
+  border-style: hidden;
+  width: 100%;
+}
+textarea:focus, input:focus{
+  outline: none;
+}
+.text-m {
+  padding-bottom: 100px;
+  height: 100%;
+}
+.input-btn {
+  margin: 10px;
+  padding: 25px;
+  border-style: hidden;
+  font-size: 1.2em;
+  border-radius: 10px;
+  color: white;
+}
+/* /Form */
+
+/* footer */
