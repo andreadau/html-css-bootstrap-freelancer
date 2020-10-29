@@ -45,7 +45,7 @@ body [class*="col-"] {
   margin-top: 25px;
 }
 .c-white {
-  color: white;
+  color: white !important;
 }
 .f-bold {
   font-weight: bold;
@@ -136,20 +136,29 @@ nav {
 .rounded {
   border-radius: 10px;
 }
-.img-port {
-  width: 100%;
-  padding-top: 40px;
+.cards {
   position: relative;
+  margin-bottom: 10px;
+  margin-top:20px;
 }
 .bg-card {
   position: absolute;
   top: 50%;
   left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 40px;
+  color: white;
 }
-.hover-card {
-  background-color:  #1ABC9C;
+.overlay {
+  display: none;
+  background-color:  rgba(26, 188, 156, 0.9);
   z-index: 100;
+  width: 100%;
+  position: absolute;
   height: 100%;
+}
+.cards:hover .overlay {
+  display: block;
 }
 /* /card */
 
